@@ -9,7 +9,7 @@
     def self.count
       @@count
     end
-    
+
     def initialize
       @@genres = []
     end
@@ -17,6 +17,6 @@
     def self.unique
       @@genres
     end
-    
-      
+
+
   end
