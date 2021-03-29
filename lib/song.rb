@@ -28,7 +28,7 @@
 
     def genre_count
       @@genres.each do |gen, num|
-        puts "{gen}: #{num}"
+        puts "#{gen}: #{num}"
       end
     end
 
