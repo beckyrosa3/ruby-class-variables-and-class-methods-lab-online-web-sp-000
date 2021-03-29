@@ -26,6 +26,10 @@
       @@genres.uniq
     end
 
-
+    def genre_count
+      @@genres.each do |gen, num|
+        puts "{gen}: #{num}"
+      end
+    end
 
   end
