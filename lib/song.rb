@@ -27,9 +27,12 @@
     end
 
     def self.genre_count
-      @@genres.each do |gen, num|
-        puts "#{gen}: #{num}"
+      genre_count = {}
+      @@genres.each do |gen|
+        if !genre_count.key?(genre)
+      end
+        genre_count[genre] += 1
+      end
+        genre_count
       end
     end
-
-  end
