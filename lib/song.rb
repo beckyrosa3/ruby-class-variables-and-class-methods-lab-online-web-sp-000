@@ -38,9 +38,9 @@
       end
     end
 
-    def artist_count
-      artist_count = {}
-      @@artists.each do |art|
-        if !artist_count.key?(art)
-          artist_count[art] = 0
-        end
+    #def artist_count
+    #  artist_count = {}
+    #  @@artists.each do |art|
+    #    if !artist_count.key?(art)
+    #      artist_count[art] = 0
+    #    end
