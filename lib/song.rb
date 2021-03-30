@@ -29,7 +29,7 @@
     def self.genre_count
       genre_count = {}
       @@genres.each do |gen|
-        !genre_count.key?(gen)
+        if genre_count.key?(gen)
         genre_count[gen] = 0
       end
         genre_count[gen] += 1
@@ -38,9 +38,15 @@
       end
     end
 
-    #def artist_count
-    #  artist_count = {}
-    #  @@artists.each do |art|
-    #    if !artist_count.key?(art)
-    #      artist_count[art] = 0
-    #    end
+    def artist_count
+      artist_count = {}
+      @@artists.each do |art|
+        if !artist_count.key?(art)
+          artist_count[art] = 0
+        end
+          artist_count[art] += 1
+        end
+          artist_count
+        end
+      end
+    end
