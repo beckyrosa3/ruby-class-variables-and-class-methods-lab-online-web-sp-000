@@ -36,7 +36,6 @@
       end
         genre_count
       end
-    end
 
     def artist_count
       artist_count = {}
@@ -49,4 +48,3 @@
           artist_count
         end
       end
-  
