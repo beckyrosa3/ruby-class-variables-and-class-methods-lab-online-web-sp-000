@@ -37,7 +37,7 @@
         genre_count
       end
 
-    def artist_count
+    def self.artist_count
       artist_count = {}
       @@artists.each do |art|
         if !artist_count.key?(art)
