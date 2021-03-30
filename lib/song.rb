@@ -29,9 +29,9 @@
     def self.genre_count
       genre_count = {}
       @@genres.each do |gen|
-        if !genre_count.key?(genre)
+        if !genre_count.key?(gen)
       end
-        genre_count[genre] += 1
+        genre_count[gen] += 1
       end
         genre_count
       end
